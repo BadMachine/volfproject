@@ -1,0 +1,29 @@
+{
+  "data": {
+    "projects":
+      [
+      {
+        "name": "tensorflow",
+        "h": "Tensorflowjs text detection",
+        "description": "Text detection and exstraction is the first important step of text recognition (OCR). \n Using this project is how you can extract text from any image",
+        "background": "/imgs/newspaper.png",
+        "foreground": "/imgs/newspaperForeground.png"
+      },
+      {
+        "name": "arraySort",
+        "h": "Array Sort",
+        "description": "Custom description for my project",
+        "background": "/imgs/newspaper.png",
+        "foreground": "/imgs/newspaperForeground.png"
+      },
+        {
+          "name": "coco",
+          "h": "COCO dataset parser and exporter",
+          "description": "Web parser and exporter for most popular image dataset in the world!",
+          "background": "/imgs/newspaper.png",
+          "foreground": "/imgs/newspaperForeground.png"
+        }
+        ]
+
+  }
+}

@@ -1,0 +1,225 @@
+/*html, body, #root, .App {*/
+/*  height: 100%;*/
+/*}*/
+
+
+#carouselColContainer {
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.App {
+  height: 100%;
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: 'OrigamiSignature';
+  src: url('./fonts/Origami.ttf');
+}
+
+@font-face {
+  font-family: 'OrigamiLinks';
+  src: url('./fonts/origami_links.ttf');
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.container, .container-lg, .container-md, .container-sm, .container-xl{
+  max-width: 100vw!important;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  /*background: linear-gradient(179.45041705231108deg, rgba(28, 26, 28,1) 2.0154419595314166%,rgba(27, 25, 27,1) 2.0154419595314166%,rgba(10, 10, 10,1) 46.42438764643237%) no-repeat;*/
+  height: 100%;
+  /*background-color: #0A0A0A;*/
+}
+
+#contentBody{
+  height: 90.6vh;
+  background-color: #0A0A0A;
+}
+
+.tsparticles-canvas-el{
+
+  position: fixed;
+  width: 100%;
+  height: 60%;
+  top: 10vh;
+  left: 0;
+  padding-bottom: 15vh;
+
+}
+.day{
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.night{
+  background-color: #0A0A0A;
+}
+
+.nightModal{
+  background-color: #1F1F1F;
+}
+
+.nightAccordionCard{
+  background-color: #fff!important;
+}
+
+.nightAccordionHeader{
+  background-color: #292929!important;
+}
+
+.nightAccordionBody{
+  background-color: #292929!important;
+}
+
+.dayText{
+  color: black!important;
+}
+
+.nightText{
+  color: white!important;
+}
+
+.Header{
+  top:0;
+  background-color: #0A0A0A;
+  width: 100%;
+}
+
+
+
+
+
+.mainLineHeader{
+  align-items: center;
+  list-style-type: none;
+  /*height: 9.4vh;*/
+  padding: .5rem 2.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+
+#menu{
+  display: inline-flex;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10%;
+}
+
+a:link{
+  text-decoration: none!important;
+}
+.menuItem{
+  color:white;
+  font-family: 'OrigamiLinks';
+  text-decoration: none;
+  margin-right: auto;
+  /*margin-left: 3.5rem;*/
+  margin-left: 3.7vw;
+}
+.switcher{
+  margin: auto 0 auto auto;
+}
+
+.menuItem:hover {
+  /*background-color: #111;*/
+}
+
+#hh:hover {
+  color: red!important;
+}
+#git:hover {
+  color: blue!important;
+}
+
+.linksContainer{
+  /*font-family: 'OrigamiLinks';*/
+
+}
+
+#headerContent{
+  display: inline;
+}
+
+#logo{
+  background: url('./logo/logoWhite.svg');
+  background-size:cover;
+  width: 6.5rem;
+  padding-top: 10px;
+  padding-left: 3rem;
+  padding-right: 2.5rem;
+}
+#logoImg{
+  visibility: hidden;
+}
+
+#signature{
+  /*color: white;*/
+  font-family: 'OrigamiSignature', Fallback, sans-serif;
+  margin-top: auto;
+  /*margin-left: 3.5rem;*/
+  margin-bottom: auto;
+  min-width: 70%;
+  font-size: xxx-large;
+
+}
+
+.col-sm {
+  margin-left: 10vw;
+  margin-top: 10vh;
+}
+
+.COntentContainer {
+  float: left;
+  padding-left: 5vw;
+}
+
+.row{
+  margin-left:0px!important;
+}
+
+.col-md-4 .col-6{
+  margin-top: 2.5vh;
+}
+
+.col-md-8{
+  max-width: 66vw!important;
+}
+
+.mainLineHeader:after {
+  display:inline-block
+}
+.mainLineHeader:before{
+  display:inline-block
+}
