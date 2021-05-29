@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19a1dc69-46ee-423c-8f15-ce3b92365b14" name="Default Changelist" comment="Uploading project to git.">
+    <list default="true" id="19a1dc69-46ee-423c-8f15-ce3b92365b14" name="Default Changelist" comment="Offline parser has been added">
+      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/coco.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/coco.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +137,9 @@
       <workItem from="1622234394720" duration="840000" />
       <workItem from="1622235364825" duration="253000" />
       <workItem from="1622235657316" duration="615000" />
+      <workItem from="1622244935375" duration="1163000" />
+      <workItem from="1622246143202" duration="646000" />
+      <workItem from="1622246971986" duration="366000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading project to git.">
       <created>1622230588852</created>
@@ -165,6 +174,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/index.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -181,22 +195,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Uploading project to git." />
-    <option name="LAST_COMMIT_MESSAGE" value="Uploading project to git." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/node_modules/@tensorflow/tfjs-converter/src/operations/operation_mapper.ts</url>
-          <line>364</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/node_modules/@tensorflow/tfjs-converter/src/operations/operation_mapper.ts</url>
-          <line>361</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Offline parser has been added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Offline parser has been added" />
   </component>
 </project>

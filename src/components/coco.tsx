@@ -16,7 +16,7 @@ import {outputDataJsonFormat} from '../interfaces/cocoData';
 
 export function COCO () {
 	const {theme} = useContext(ThemeContext);
-	const [randomCOCOimage, setRandomCOCOimage] = React.useState({Image: getRandomCocoExample()});
+	const [randomCOCOimage, setRandomCOCOimage] = React.useState({Image: getRandomCocoExample() });
 	const imageRef = React.useRef<any>();
 	const bboxCheckbox = React.useRef<any>();
 	const segmentCheckbox = React.useRef<any>();
@@ -24,18 +24,26 @@ export function COCO () {
 
 	function changeImage(filter?: filterData){ //function that changes image in viewport
 		if(filter){
+			//online version
 			const filteredExample = SERVER_API.getRandomSample(filter);
 			setTimeout(() => {
 				imageRef.current.style.pointerEvents = 'auto';
 			}, 500);
 			filteredExample.then(data=>{
-				console.log(data);
 				bboxCheckbox.current.checked = data.data.showBboxes;
 				segmentCheckbox.current.checked = data.data.showKeypoints;
 				setRandomCOCOimage({Image: data.data});
 
+			}).catch((error)=>{ //catch if server is down
+				//offline version
+				const offlineCOCOSampleWithFilter = getFilteredCocoExample(filter);
+				console.log(offlineCOCOSampleWithFilter);
+				bboxCheckbox.current.checked = offlineCOCOSampleWithFilter.showBboxes;
+				segmentCheckbox.current.checked = offlineCOCOSampleWithFilter.showKeypoints;
+				setRandomCOCOimage({Image: offlineCOCOSampleWithFilter});
 			});
 		}else{
+			//online version
 			const response = SERVER_API.getRandomSample();
 			imageRef.current.style.pointerEvents = 'none';
 			setTimeout(() => {
@@ -47,7 +55,14 @@ export function COCO () {
 				newRandom.showBboxes = randomCOCOimage.Image.showBboxes;
 				newRandom.showKeypoints = randomCOCOimage.Image.showKeypoints;
 				setRandomCOCOimage({Image: newRandom});
+			}).catch((error)=>{ //catch if server is down
+				//offline version
+				const offlineCOCOSample = getRandomCocoExample();
+				bboxCheckbox.current.checked = offlineCOCOSample.showBboxes;
+				segmentCheckbox.current.checked = offlineCOCOSample.showKeypoints;
+				setRandomCOCOimage({Image: offlineCOCOSample});
 			});
+
 		}
 	}
 
