@@ -2,13 +2,132 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19a1dc69-46ee-423c-8f15-ce3b92365b14" name="Default Changelist" comment="Offline parser has been added">
-      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/007.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/0568903bc8b65da0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/213.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/579169e9003c69cc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/660978.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ba3b72978701a64426e31f0c2c4887c9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/lebron_james.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard10of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard11of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard12of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard13of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard14of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard15of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard16of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard17of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard18of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard19of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard1of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard20of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard21of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard22of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard23of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard2of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard3of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard4of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard5of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard6of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard7of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard8of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/group1-shard9of23.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/models/EAST/model.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/opencv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/coco.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/coco.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard10of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard11of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard12of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard13of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard14of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard15of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard16of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard17of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard18of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard19of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard1of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard20of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard21of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard22of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard23of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard24of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard25of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard26of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard27of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard28of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard29of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard2of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard30of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard31of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard32of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard33of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard34of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard35of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard36of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard37of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard38of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard39of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard3of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard40of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard41of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard42of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard43of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard44of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard45of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard46of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard47of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard48of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard49of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard4of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard50of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard51of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard52of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard53of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard54of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard55of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard56of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard57of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard58of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard59of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard5of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard60of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard61of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard62of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard63of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard64of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard65of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard66of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard67of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard68of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard69of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard6of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard70of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard71of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard72of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard73of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard74of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard75of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard76of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard77of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard78of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard79of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard7of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard80of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard81of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard82of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard83of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard8of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/group1-shard9of83.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model/model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model2/group1-shard1of6.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model2/group1-shard2of6.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model2/group1-shard3of6.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model2/group1-shard4of6.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model2/group1-shard5of6.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model2/group1-shard6of6.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/models/web_model2/model.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextDetection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextDetection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,6 +259,11 @@
       <workItem from="1622244935375" duration="1163000" />
       <workItem from="1622246143202" duration="646000" />
       <workItem from="1622246971986" duration="366000" />
+      <workItem from="1622287126512" duration="35724000" />
+      <workItem from="1622406562219" duration="1714000" />
+      <workItem from="1622408316579" duration="5097000" />
+      <workItem from="1622413730606" duration="720000" />
+      <workItem from="1622490260256" duration="5291000" />
     </task>
     <task id="LOCAL-00001" summary="Uploading project to git.">
       <created>1622230588852</created>
